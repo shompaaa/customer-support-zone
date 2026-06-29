@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Tickets from "./components/Tickets/Tickets";
 import TrackingCard from "./components/TrackingCard/TrackingCard";
 import Footer from "./components/Footer/Footer";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [progressCount, setProgressCount] = useState(0);
@@ -24,6 +25,7 @@ function App() {
         resolveCount={resolveCount}
       ></Tickets>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </>
   );
 }

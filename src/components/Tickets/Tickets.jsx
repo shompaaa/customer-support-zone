@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import TicketCard from "../TicketCard/TicketCard";
+import { toast } from "react-toastify";
 
 const Tickets = ({
   setProgressCount,
@@ -22,8 +23,9 @@ const Tickets = ({
     if (!isExist) {
       setTask([...task, t]);
       setProgressCount(progressCount + 1);
+      toast('Task added')
     } else {
-      alert("already exist");
+      toast("Task already exist");
     }
   };
 
@@ -31,6 +33,7 @@ const Tickets = ({
     const resolved = resolveTask.find((item) => item.id == i.id);
     if (!resolved) {
       setResolveTask([...resolveTask, i]);
+      toast('Task has been solved')
     }
     const remaining = task.filter((item) => item.id !== i.id);
     setTask(remaining);

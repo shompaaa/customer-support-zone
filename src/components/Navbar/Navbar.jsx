@@ -47,7 +47,7 @@ const Navbar = () => {
         <a className="btn btn-ghost text-xl">CS — Ticket System</a>
       </div>
       <div className="navbar-end">
-        <ul className="menu menu-horizontal px-1">
+        <ul className="menu menu-horizontal px-1 hidden lg:flex">
           <li>
             <a>Home</a>
           </li>
