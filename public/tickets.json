@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login issue",
+    "description": "User cannot log into the system using valid credentials.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-06-20T09:30:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Password reset request",
+    "description": "Customer requested a password reset email.",
+    "customer": "Emma Johnson",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-06-19T14:20:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Payment failed",
+    "description": "Transaction failed while processing online payment.",
+    "customer": "Michael Brown",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-06-18T11:45:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Profile update error",
+    "description": "Unable to save changes to customer profile.",
+    "customer": "Sophia Davis",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-06-17T08:15:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Invoice download issue",
+    "description": "Invoice PDF is not downloading correctly.",
+    "customer": "William Wilson",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-06-16T16:10:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Website loading slowly",
+    "description": "Customer reported slow loading times on the dashboard.",
+    "customer": "Olivia Martinez",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-06-15T13:40:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Email notification missing",
+    "description": "Customer is not receiving email notifications.",
+    "customer": "James Anderson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-06-14T10:25:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Account locked",
+    "description": "Multiple failed login attempts locked the account.",
+    "customer": "Ava Thomas",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-06-13T07:50:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Feature request",
+    "description": "Customer requested dark mode support.",
+    "customer": "Benjamin Taylor",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-06-12T15:35:00Z"
+  },
+  {
+    "id": 10,
+    "title": "API integration issue",
+    "description": "Third-party API returns authentication errors.",
+    "customer": "Mia Moore",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-06-11T12:00:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Search not working",
+    "description": "Search results are empty even with valid keywords.",
+    "customer": "Lucas Jackson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-06-10T09:10:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Unable to upload documents",
+    "description": "File upload fails with an unknown error.",
+    "customer": "Charlotte White",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2026-06-09T17:30:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Billing address incorrect",
+    "description": "Billing address is not updating after saving.",
+    "customer": "Henry Harris",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-06-08T11:55:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Mobile app crashes",
+    "description": "App crashes immediately after launch on Android devices.",
+    "customer": "Amelia Clark",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-06-07T08:45:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Two-factor authentication issue",
+    "description": "OTP code is not being delivered via SMS.",
+    "customer": "Daniel Lewis",
+    "priority": "Critical",
+    "status": "Open",
+    "createdAt": "2026-06-06T14:15:00Z"
+  }
+]
