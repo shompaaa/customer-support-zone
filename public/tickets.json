@@ -6,7 +6,7 @@
     "customer": "John Smith",
     "priority": "High",
     "status": "Open",
-    "createdAt": "2026-06-20T09:30:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 2,
@@ -14,8 +14,8 @@
     "description": "Customer requested a password reset email.",
     "customer": "Emma Johnson",
     "priority": "Medium",
-    "status": "Resolved",
-    "createdAt": "2026-06-19T14:20:00Z"
+    "status": "Open",
+    "createdAt": "29/06/2026"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "customer": "Michael Brown",
     "priority": "High",
     "status": "In Progress",
-    "createdAt": "2026-06-18T11:45:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "customer": "Sophia Davis",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-06-17T08:15:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 5,
@@ -41,8 +41,8 @@
     "description": "Invoice PDF is not downloading correctly.",
     "customer": "William Wilson",
     "priority": "Medium",
-    "status": "Closed",
-    "createdAt": "2026-06-16T16:10:00Z"
+    "status": "In Progress",
+    "createdAt": "29/06/2026"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "customer": "Olivia Martinez",
     "priority": "High",
     "status": "In Progress",
-    "createdAt": "2026-06-15T13:40:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "customer": "James Anderson",
     "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-06-14T10:25:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 8,
@@ -68,8 +68,8 @@
     "description": "Multiple failed login attempts locked the account.",
     "customer": "Ava Thomas",
     "priority": "High",
-    "status": "Resolved",
-    "createdAt": "2026-06-13T07:50:00Z"
+    "status": "In Progress",
+    "createdAt": "29/06/2026"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "customer": "Benjamin Taylor",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-06-12T15:35:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 10,
@@ -87,25 +87,25 @@
     "customer": "Mia Moore",
     "priority": "High",
     "status": "In Progress",
-    "createdAt": "2026-06-11T12:00:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 11,
     "title": "Search not working",
     "description": "Search results are empty even with valid keywords.",
     "customer": "Lucas Jackson",
-    "priority": "Medium",
+    "priority": "High",
     "status": "Open",
-    "createdAt": "2026-06-10T09:10:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 12,
     "title": "Unable to upload documents",
     "description": "File upload fails with an unknown error.",
     "customer": "Charlotte White",
-    "priority": "High",
-    "status": "Resolved",
-    "createdAt": "2026-06-09T17:30:00Z"
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "29/06/2026"
   },
   {
     "id": 13,
@@ -113,8 +113,8 @@
     "description": "Billing address is not updating after saving.",
     "customer": "Henry Harris",
     "priority": "Low",
-    "status": "Closed",
-    "createdAt": "2026-06-08T11:55:00Z"
+    "status": "In Progress",
+    "createdAt": "29/06/2026"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "customer": "Amelia Clark",
     "priority": "Critical",
     "status": "In Progress",
-    "createdAt": "2026-06-07T08:45:00Z"
+    "createdAt": "29/06/2026"
   },
   {
     "id": 15,
@@ -132,6 +132,6 @@
     "customer": "Daniel Lewis",
     "priority": "Critical",
     "status": "Open",
-    "createdAt": "2026-06-06T14:15:00Z"
+    "createdAt": "29/06/2026"
   }
 ]

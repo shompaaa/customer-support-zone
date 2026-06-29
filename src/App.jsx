@@ -5,13 +5,25 @@ import Tickets from "./components/Tickets/Tickets";
 import TrackingCard from "./components/TrackingCard/TrackingCard";
 
 function App() {
-   const [progressCount, setProgressCount] = useState(0)
+  const [progressCount, setProgressCount] = useState(0);
+  const [resolveCount, setResolveCount] = useState(0);
 
-  return <>
-  <Navbar></Navbar>
-  <TrackingCard progressCount={progressCount}></TrackingCard>
-  <Tickets setProgressCount={setProgressCount} progressCount={progressCount}></Tickets>
-  </>;
+
+  return (
+    <>
+      <Navbar></Navbar>
+      <TrackingCard
+        progressCount={progressCount}
+        resolveCount={resolveCount}
+      ></TrackingCard>
+      <Tickets
+        setProgressCount={setProgressCount}
+        progressCount={progressCount}
+        setResolveCount={setResolveCount}
+        resolveCount={resolveCount}
+      ></Tickets>
+    </>
+  );
 }
 
 export default App;
