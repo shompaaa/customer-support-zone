@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import TicketCard from "../TicketCard/TicketCard";
 
-const Tickets = () => {
+const Tickets = ({setProgressCount,progressCount}) => {
   const [tickets, setTickets] = useState([]);
   const [task, setTask] = useState([]);
 
@@ -15,6 +15,7 @@ const Tickets = () => {
     const isExist = task.find((item) => item.id == t.id);
     if (!isExist) {
       setTask([...task,t]);
+      setProgressCount(progressCount+1)
     } else {
       alert("already exist");
     }

@@ -1,5 +1,6 @@
 import bgImg from "../../assets/vector1.png";
-const TrackingCard = () => {
+const TrackingCard = ({progressCount}) => {
+
   return (
     <div className="my-20 flex justify-between w-11/12 mx-auto">
       <div
@@ -12,7 +13,7 @@ const TrackingCard = () => {
         }}
       >
         <p>In-Progress</p>
-        <p className="text-5xl font-bold mt-2">0</p>
+        <p className="text-5xl font-bold mt-2">{progressCount}</p>
       </div>
       <div
         className="py-15 px-70 text-center text-white rounded-md"
