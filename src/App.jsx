@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Tickets from "./components/Tickets/Tickets";
 import TrackingCard from "./components/TrackingCard/TrackingCard";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   const [progressCount, setProgressCount] = useState(0);
@@ -22,6 +23,7 @@ function App() {
         setResolveCount={setResolveCount}
         resolveCount={resolveCount}
       ></Tickets>
+      <Footer></Footer>
     </>
   );
 }

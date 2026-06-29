@@ -40,7 +40,7 @@ const Tickets = ({
     setProgressCount(progressCount - 1);
   };
   return (
-    <div className="w-11/12 mx-auto">
+    <div className="w-11/12 mx-auto mb-20">
       <h1 className="font-semibold text-xl">Customer Tickets</h1>
       <div className="grid grid-cols-12 gap-5">
         <div className="col-span-9 grid grid-cols-2 gap-4">
